@@ -1,0 +1,34 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Teste</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <h1>Jogo da Velha</h1>
+    <h2 >Vez do Jogador: <span id="vezJogador"></span></h2>
+    <h2>Vitorias Jogador 1: <span id="jogador1"></span></h2>
+    <h2>Vitorias Jogador 2: <span id="jogador2"></span></h2>
+    <h2>Empates: <span id="empate"></span></h2>
+    <div id="jogadorX">X Ganhou!!</div>
+    <div id="jogadorO">O Ganhou!!</div>
+    <div id="JogoDaVelha">
+        <div class="JogoDaVelha_Quadrado branco" id="Bloco1" onclick="JogoDaVelha('Bloco1')"></div>
+        <div class="JogoDaVelha_Quadrado branco" id="Bloco2" onclick="JogoDaVelha('Bloco2')"></div>
+        <div class="JogoDaVelha_Quadrado branco" id="Bloco3" onclick="JogoDaVelha('Bloco3')"></div>
+        <div class="JogoDaVelha_Quadrado branco" id="Bloco4" onclick="JogoDaVelha('Bloco4')"></div>
+        <div class="JogoDaVelha_Quadrado branco" id="Bloco5" onclick="JogoDaVelha('Bloco5')"></div>
+        <div class="JogoDaVelha_Quadrado branco" id="Bloco6" onclick="JogoDaVelha('Bloco6')"></div>
+        <div class="JogoDaVelha_Quadrado branco" id="Bloco7" onclick="JogoDaVelha('Bloco7')"></div>
+        <div class="JogoDaVelha_Quadrado branco" id="Bloco8" onclick="JogoDaVelha('Bloco8')"></div>
+        <div class="JogoDaVelha_Quadrado branco" id="Bloco9" onclick="JogoDaVelha('Bloco9')"></div>
+    </div>
+    <div id="reiniciar">
+        <p onclick="Reiniciar()">Jogar Novamente</p>
+    </div>
+    <div id="Tipo" class=""></div>
+    <script src="../js/JogoDaVelha.js"></script>
+</body>
+</html>
